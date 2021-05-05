@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "L2N4C19924002447",
         "name": "com.DefaultCompany.IceCreamInc.Demo",
-        "processId": 14207,
+        "processId": 19127,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,18 @@
             "deviceId": "L2N4C19924002447",
             "name": "com.DefaultCompany.IceCreamInc.Demo",
             "processId": 14207,
+            "exited": false
+        },
+        {
+            "deviceId": "L2N4C19924002447",
+            "name": "com.DefaultCompany.IceCreamInc.Demo",
+            "processId": 15647,
+            "exited": false
+        },
+        {
+            "deviceId": "L2N4C19924002447",
+            "name": "com.DefaultCompany.IceCreamInc.Demo",
+            "processId": 19127,
             "exited": false
         }
     ],

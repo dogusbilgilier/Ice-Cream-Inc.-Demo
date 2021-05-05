@@ -1,2 +1,2 @@
 Ice-Cream-Inc.- Demo Project
-![](Gif.gif)
+![300*200](Gif.gif)

@@ -1,4 +1,4 @@
 Ice-Cream-Inc.- Demo Project
 
 
-![](Gif.gif)
+![](http://gluttony.games/Gif.gif)

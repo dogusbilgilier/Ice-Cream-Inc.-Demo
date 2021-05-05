@@ -21,8 +21,6 @@ public class CreamGenerator : MonoBehaviour
     int i, j = 0;
     bool levelFinishedflag = false;
 
-    
-    
     void Start()
     {
         _progressBar = FindObjectOfType<ProgressBar>();
@@ -114,7 +112,6 @@ public class CreamGenerator : MonoBehaviour
         }
 
     }
-
     public List<Material> getAnswer()
     {
         List<Material> userAnswer = new List<Material>();

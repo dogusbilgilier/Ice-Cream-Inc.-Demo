@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -59,16 +58,14 @@ public class LevelManager : MonoBehaviour
 
          percentage= (float)trues / answer.Count * 100f;
 
-        matchRateTxt.text= "% "+percentage.ToString();
+        matchRateTxt.text= "% "+percentage.ToString("0.00"); 
         levelImage.sprite = images[CreamGenerator.currentLevel - 1];
 
     }
     void FillAnswer1()
     {
         for (int i = 0; i < userAnswer.Count; i++)
-        {
             answer.Add(chocolate);
-        }
     }
     void FillAnswer2()
     {

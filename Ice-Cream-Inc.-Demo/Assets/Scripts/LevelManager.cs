@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,11 +16,11 @@ public class LevelManager : MonoBehaviour
     [SerializeField] Sprite[] images;
     [SerializeField] GameObject panel;
     [SerializeField] Text matchRateTxt,levelTxt;
-    [SerializeField]Slider slider;
+    [SerializeField] Slider slider;
     float targetProgress = 0;
-    int c=0;
     void Start()
     {
+
         userAnswer = new List<Material>();
         answer = new List<Material>();
 
@@ -44,12 +45,12 @@ public class LevelManager : MonoBehaviour
         answer.Clear();
         panel.SetActive(true);
         userAnswer = creamGenerator.getAnswer();
-        
+
         if (CreamGenerator.currentLevel == 1)
             FillAnswer1();
         else if (CreamGenerator.currentLevel == 2)
             FillAnswer2();
-
+       
         for (int i = 0; i < userAnswer.Count; i++)
         {
             if (userAnswer[i].name.Contains(answer[i].name))
@@ -96,4 +97,5 @@ public class LevelManager : MonoBehaviour
         levelTxt.text = "Level" + CreamGenerator.currentLevel;
         panel.SetActive(false);
     }
+
 }
